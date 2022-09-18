@@ -1,0 +1,168 @@
+$text_fields: #edf4f5;
+$background: #f6fcfc;
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+.about-top {
+  background-image: url("../../../../assets/images/slide1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+.about-us::before {
+  background-color: rgba(7, 4, 167, 0.4);
+  content: " ";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.top {
+  position: absolute;
+  top: 40%;
+  color: $text_fields;
+}
+.top p {
+  width: 50%;
+  margin-top: 30px;
+}
+.about-bottom {
+  background-color:$background;
+  color: #113e6b;
+}
+.head {
+  text-align: center;
+}
+.head h1 {
+  font-weight: 600;
+  font-size: 40px;
+}
+.box {
+  background-color: #fff;
+  padding: 20px 10px 30px 10px;
+  text-align: center;
+  border-radius: 15px;
+  margin-top: 25px;
+}
+.box-top {
+  padding: 20px;
+}
+.box img {
+  width: 50%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.box-bottom h1 {
+  font-size: 20px;
+  margin: 7px 0 15px 0;
+}
+.box-bottom h3 {
+  font-size: 16px;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1199px) {
+  .box {
+    img {
+      width: 70%;
+    }
+    h1 {
+      font-size: 20px;
+    }
+    h3 {
+      font-size: 15px;
+    }
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 991px) {
+  .box {
+    img {
+      width: 100%;
+    }
+    h1 {
+      font-size: 17px;
+    }
+    h3 {
+      font-size: 15px;
+    }
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+  .top {
+    p {
+      font-size: 16px;
+    }
+    .h1 {
+      font-size: 25px;
+    }
+  }
+  .form-btn {
+    width: 90%;
+  }
+  .box img {
+    width: 85%;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 575px) {
+  .top {
+    p {
+      font-size: 16px;
+      width: 70%;
+    }
+    .h1 {
+      font-size: 25px;
+    }
+  }
+  .head h1 {
+    font-size: 34px;
+  }
+  .box img {
+    width: 60%;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 479px) {
+  .top {
+    p {
+      font-size: 16px;
+      width: 85%;
+    }
+    .h1 {
+      font-size: 25px;
+    }
+  }
+  .head h1 {
+    font-size: 24px;
+  }
+  .box img {
+    width: 90%;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 360px) {
+  .top {
+    p {
+      font-size: 16px;
+      width: 90%;
+    }
+    .h1 {
+      font-size: 25px;
+    }
+  }
+  .head h1 {
+    font-size: 20px;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 319px) {
+}

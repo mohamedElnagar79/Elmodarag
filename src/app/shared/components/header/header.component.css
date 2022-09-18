@@ -1,0 +1,19 @@
+.headerContainer nav {
+  background-image: linear-gradient(90deg, #1e3148, #504dc4);
+  padding: 10px;
+}
+.headerContainer nav .navbar-brand span {
+  color: #edf4f5;
+  font-size: 16px;
+}
+.nav-link {
+  color: #edf4f5;
+  font-size: 17px;
+}
+.sign-btn {
+  color: #edf4f5;
+  border: 1px solid #f8ffff;
+  padding: 5px 30px;
+  width: 100%;
+  font-size: 17px;
+}

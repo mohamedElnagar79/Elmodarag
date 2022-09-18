@@ -1,0 +1,108 @@
+$primary: #504dc4;
+$primary_dark: #1e3148;
+$accent: #fe6277;
+$accent_light: #ff8149;
+$footer: #1b1b1b;
+$footer_text: #0ac0ff;
+$title_text: #4f6983;
+$text_fields: #edf4f5;
+$active: #e3232d;
+$pagintaion_text: #8a8e93;
+.my-tasks {
+  background-color: #fff;
+  padding: 2rem;
+  margin: 0 0 2rem 0;
+  border-radius: 25px;
+  box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
+}
+.table {
+  margin: 2rem 0 2rem 0;
+  color: $primary_dark;
+}
+.end {
+  color: #999999;
+}
+thead tr {
+  font-size: 25px;
+}
+tbody tr {
+  font-size: 18px;
+  color: $primary_dark;
+}
+.tasks-head h1 {
+  font-size: 30px;
+  font-weight: 600;
+  color: $primary_dark;
+  display: inline-block;
+}
+.tasks-head a {
+  float: right;
+  text-decoration: none;
+  color: #fe7b77;
+  font-size: 22px;
+}
+.active-task {
+  color: $active !important;
+}
+ul li a {
+  color: $pagintaion_text;
+  border: 0;
+  font-size: 20px;
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1199px) {
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 991px) {
+  thead tr {
+    font-size: 20px;
+  }
+  tbody tr {
+    font-size: 15px;
+  }
+  .tasks-head h1 {
+    font-size: 25px;
+    margin: 0 0 1rem 0;
+  }
+  ul li a {
+    font-size: 16px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 575px) {
+  thead tr {
+    font-size: 16px;
+  }
+  tbody tr {
+    font-size: 14px;
+  }
+  .tasks-head {
+    font-size: 20px;
+    margin: 0 0 0.7rem 0;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 479px) {
+  thead tr {
+    font-size: 13px;
+  }
+  tbody tr {
+    font-size: 12px;
+  }
+  .tasks-head h1 {
+    font-size: 16px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 360px) {
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 319px) {
+}

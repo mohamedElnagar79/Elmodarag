@@ -1,0 +1,23 @@
+<div class="side-bar">
+    <div class="side-bar-top p-5">
+        <img src="assets/images/john.png" class="img-responsive">
+        <div class="student-info">
+            <h1>John Doe</h1>
+            <h3>john2020@gmail.com</h3>
+            <h3>20163552</h3>
+        </div>
+    </div>
+    <div class="side-bar-bottom pb-5">
+        <ul class="ul-group">
+            <li class="element" [routerLink]="['/student', 1, 'profile']" routerLinkActive="active">Profile</li>
+            <li class="element" [routerLink]="['/student', 1, 'registration']" routerLinkActive="active">Class Room</li>
+            <li class="element" [routerLink]="['/student', 1, 'tasks']" routerLinkActive="active">My Tasks</li>
+            <li class="element" [routerLink]="['/student', 1, 'sheets']" routerLinkActive="active">My Sheets</li>
+            <li class="element" [routerLink]="['/student', 1, 'exams']" routerLinkActive="active">Upcoming Exams</li>
+            <li class="element" [routerLink]="['/student', 1, 'group']" routerLinkActive="active">My Groups</li>
+            <li class="element" [routerLink]="['/student', 1, 'account']" routerLinkActive="active">Account</li>
+            <li class="element" >Settings</li>
+            <li class="element">Log out</li>
+        </ul>
+    </div>
+</div>

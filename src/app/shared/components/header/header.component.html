@@ -1,0 +1,38 @@
+<header class="headerContainer">
+    <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" routerLink="/home">
+            <img src="assets/images/logoicon.png" alt="" width="50">
+            <span>EL-Modarag</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <fa-icon [icon]="faBars" style="color: #fff;"></fa-icon>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" routerLink="/college" >College</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/departments">Departments</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/doctor">Doctors</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/courses">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/contact-us">Contact us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/about-us">About us</a>
+                </li>
+            </ul>
+            <div class="text-center mt-sm-1">
+                <button routerLink="/user" class="btn sign-btn">Sign In</button>
+            </div>
+        </div>
+    </nav>
+</header>

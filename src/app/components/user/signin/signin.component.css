@@ -1,0 +1,63 @@
+button {
+  width: 100%;
+  background: #fe6277 !important;
+  color: #fff !important;
+  font-size: 20px !important;
+}
+.login-page {
+  min-height: 100%;
+  margin: 0;
+  padding: 50px 0 0 0;
+  background-image: linear-gradient(90deg, #1e3148, #504dc4);
+}
+.login-page .contain-form {
+  text-align: center;
+  width: 750px;
+  margin: 0px auto;
+  border-radius: 10px;
+  background: url("../../../../assets/images/slide1.png") center center/cover
+    no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+.login-page .contain-form::before {
+  background-color: rgba(80, 77, 196, 0.4);
+  content: " ";
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.login-page .login-form {
+  background: #fff;
+  padding: 40px 15px;
+}
+.login-page .head {
+  margin: 15px 0 40px 0px;
+}
+.login-page .btn {
+  margin-top: 20px;
+}
+.login-page .copy {
+  font-size: 13px;
+  margin-top: 30px;
+}
+.login-page .img {
+  padding: 20% 15%;
+}
+@media only screen and (max-width: 767px) {
+  .login-page .contain-form {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .login-page .login-form {
+    order: 2;
+  }
+  .login-page .img {
+    order: 1;
+    padding: 2% 0;
+  }
+  .login-page .contain-form {
+    width: 50%;
+  }
+}

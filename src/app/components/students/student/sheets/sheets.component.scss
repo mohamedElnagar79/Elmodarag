@@ -1,0 +1,104 @@
+$primary: #504dc4;
+$primary_dark: #1e3148;
+$accent: #fe6277;
+$accent_light: #ff8149;
+$footer: #1b1b1b;
+$footer_text: #0ac0ff;
+$title_text: #4f6983;
+$text_fields: #edf4f5;
+$active: #e3232d;
+$pagintaion_text: #8a8e93;
+.my-sheets {
+  background-color: #fff;
+  padding: 2rem;
+  margin: 0 0 2rem 0;
+  border-radius: 25px;
+  box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
+}
+.table {
+  margin: 2rem 0 2rem 0;
+  color: $primary_dark;
+}
+thead tr {
+  font-size: 25px;
+}
+tbody tr {
+  font-size: 18px;
+  color: $primary_dark;
+}
+.sheets-head h1 {
+  font-size: 30px;
+  font-weight: 600;
+  color: $primary_dark;
+  display: inline-block;
+}
+.sheets-head a {
+  float: right;
+  text-decoration: none;
+  color: #fe7b77;
+  font-size: 22px;
+}
+.active-sheet {
+  color: $active !important;
+}
+ul li a {
+  color: $pagintaion_text;
+  border: 0;
+  font-size: 20px;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1199px) {
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 991px) {
+  thead tr {
+    font-size: 20px;
+  }
+  tbody tr {
+    font-size: 15px;
+  }
+
+  .sheets-head h1 {
+    font-size: 25px;
+  }
+  ul li a {
+    font-size: 16px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+  thead tr {
+    font-size: 20px;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 575px) {
+  thead tr {
+    font-size: 13px;
+  }
+  tbody tr {
+    font-size: 11px;
+  }
+
+  .sheets-head h1 {
+    font-size: 22px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 479px) {
+  .sheets-head h1,
+  .sheets-head a {
+    font-size: 20px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 360px) {
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 319px) {
+}

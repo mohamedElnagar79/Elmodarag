@@ -1,0 +1,171 @@
+$primary: #504dc4;
+$primary_dark: #1e3148;
+$accent: #fe6277;
+$accent_light: #ff8149;
+$footer: #1b1b1b;
+$footer_text: #0ac0ff;
+$title_text: #4f6983;
+$text_fields: #edf4f5;
+$active: #e3232d;
+.my-schedule,
+.my-tasks,
+.my-sheets,
+.my-coming-exam,
+.my-groups {
+  background-color: #fff;
+  padding: 2rem;
+  margin: 0 0 2rem 0;
+  border-radius: 25px;
+  box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
+}
+.schedule-head h1 {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0 0 2rem 0;
+  color: $primary_dark;
+}
+.schedule-element {
+  background-color: #d8d8d8;
+  color: #2b3665;
+  border: 0px;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 1.8rem;
+}
+.schedule-element a {
+  color: #2b3665;
+  text-decoration: none;
+}
+.act,
+.act a {
+  background-image: linear-gradient(90deg, $accent, $accent_light);
+  color: $text_fields;
+}
+.table {
+  margin: 2rem 0 2rem 0;
+  color: $primary_dark;
+}
+.end {
+  color: #999999;
+}
+.start-btn,
+.message-btn {
+  color: $text_fields;
+  background-image: linear-gradient(90deg, $accent, $accent_light);
+  border: 0;
+  border-radius: 12px;
+  padding: 4px 12px 4px 12px;
+  font-size: 16px;
+  text-align: center;
+}
+thead tr {
+  font-size: 25px;
+}
+tbody tr {
+  font-size: 18px;
+  color: $primary_dark;
+}
+.tasks-head h1,
+.sheets-head h1,
+.exam-head h1,
+.group-head h1 {
+  font-size: 30px;
+  font-weight: 600;
+  color: $primary_dark;
+  display: inline-block;
+}
+.tasks-head a,
+.sheets-head a {
+  float: right;
+  text-decoration: none;
+  color: #fe7b77;
+  font-size: 22px;
+}
+.active-task,
+.active-sheet {
+  color: $active !important;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1199px) {
+  .schedule-element {
+    padding: 15px;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 991px) {
+  .schedule-element {
+    padding: 3px;
+    font-size: 15px;
+  }
+  thead tr {
+    font-size: 20px;
+  }
+  tbody tr {
+    font-size: 15px;
+  }
+  .tasks-head h1,
+  .sheets-head h1,
+  .exam-head h1,
+  .group-head h1,
+  .schedule-head h1 {
+    font-size: 25px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+  .schedule-element {
+    padding: 15px;
+    font-size: 16px;
+  }
+  thead tr {
+    font-size: 20px;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 575px) {
+  thead tr {
+    font-size: 13px;
+  }
+  tbody tr {
+    font-size: 11px;
+  }
+  .tasks-head h1,
+  .sheets-head h1,
+  .exam-head h1,
+  .group-head h1,
+  .schedule-head h1 {
+    font-size: 22px;
+  }
+  .message-btn {
+    padding: 6px 2px 6px 2px;
+    font-size: 11px;
+  }
+  .start-btn {
+    font-size: 12px;
+    padding: 4px 7px 4px 7px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 479px) {
+  .tasks-head h1,
+  .sheets-head h1,
+  .exam-head h1,
+  .group-head h1,
+  .schedule-head h1,
+  .tasks-head a,
+  .sheets-head a {
+    font-size: 20px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 360px) {
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 319px) {
+}

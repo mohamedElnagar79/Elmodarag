@@ -1,0 +1,108 @@
+$primary: #504dc4;
+$primary_dark: #1e3148;
+$accent: #fe6277;
+$accent_light: #ff8149;
+$footer: #1b1b1b;
+$footer_text: #0ac0ff;
+$title_text: #4f6983;
+$text_fields: #edf4f5;
+$active:#18253e;
+.side-bar {
+  color: $text_fields;
+  background-image: linear-gradient(180deg, #1e3148, #504dc4);
+  height: 100%;
+}
+.side-bar-top {
+  text-align: center;
+}
+.img-responsive {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.student-info {
+  margin: 2rem 0 3rem 0;
+}
+.student-info h1 {
+  font-size: 25px;
+}
+.student-info h3 {
+  font-size: 16px;
+  margin: 10px 0 0 0;
+}
+.ul-group {
+  list-style: none;
+  margin: 0;
+  padding: 0px;
+}
+.element {
+  margin: 2px 0 2px 0;
+  padding: 5px 5px 5px 25px;
+  font-size: 25px;
+  font-weight: 300;
+  cursor: pointer;
+}
+.active {
+  background-color: $active;
+  border-left: 5px solid $text_fields;
+}
+.element:hover {
+  background-color: $active;
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1199px) {
+  
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 991px) {
+  .img-responsive {
+    width: 100px;
+    height: 100px;
+  }
+  .student-info {
+    h1 {
+       font-size: 18px;
+    }
+    h3 {
+      font-size: 10px;
+    }
+  }
+  .element {
+    font-size: 20px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+  .img-responsive {
+    width: 150px;
+    height: 150px;
+  }
+  .student-info {
+    h1 {
+       font-size: 25px;
+    }
+    h3 {
+      font-size: 15px;
+    }
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 575px) {
+ 
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 479px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 360px) {
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 319px) {
+}

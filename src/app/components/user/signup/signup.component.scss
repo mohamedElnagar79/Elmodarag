@@ -1,0 +1,151 @@
+.signup-page {
+  min-height: 100%;
+  margin: 0;
+  background-image: linear-gradient(90deg, #1e3148, #504dc4);
+}
+.signup-page .contain-form {
+  text-align: center;
+  width: 770px;
+  margin: 0px auto;
+  border-radius: 10px;
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+.signup-page .head {
+  margin: 30px 0 25px 0;
+}
+.signup-page .head h1 {
+  font-weight: 400;
+  color: #1e3148;
+  margin: 10px 0 15px 0;
+}
+.signup-page .head p {
+  font-size: 17px;
+  line-height: 25px;
+  color: #6e6b80;
+}
+.form-group .form-input {
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  width: 95%;
+  height: 38px;
+  background-color: #edf4f5;
+  padding: 0 3px 0 10px;
+}
+::-webkit-input-placeholder {
+  font-size: 15px;
+  color: rgb(172, 185, 191, 1);
+}
+.form-group {
+  margin: 10px;
+}
+.form-element {
+  margin: 2px 0 15px 0;
+}
+.rigister {
+  float: left;
+  font-size: 18px;
+  margin: 5px 15px 7px 8px;
+}
+.input-radio {
+  background-color: #edf4f5;
+  padding: 4px 7px 5px 8px;
+  float: left;
+  border-radius: 8px;
+  margin: 3px 8px 2px 5px;
+}
+.input-radio input {
+  float: right;
+  margin: 7px 0 0 20px;
+}
+.last-element {
+  margin: 5px;
+}
+.contain-btn {
+  margin: 25px 0 15px 0;
+}
+.create-btn {
+  background-color: #fe6277;
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 8px;
+  border: 0;
+  color: #fff;
+  padding: 10px 60px;
+}
+.terms {
+  padding: 2px 0 17px 0;
+  font-size: 15px;
+}
+
+/* media */
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1199px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 991px) {
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+  .signup-page {
+    .contain-form {
+      width: 90%;
+    }
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 575px) {
+  .signup-page {
+    .contain-form {
+      width: 90%;
+    }
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 479px) {
+  .signup-page {
+    .contain-form {
+      width: 90%;
+    }
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 360px) {
+  .head h1 {
+    font-size: 43px;
+    letter-spacing: 5px;
+  }
+  .head p {
+    width: 344px;
+    padding: 0 31px 0 15px;
+  }
+  .input-radio {
+    width: 65%;
+    margin: 15px 0 0 5px;
+  }
+  .contain-btn {
+    width: 90%;
+  }
+  .create-btn {
+    width: 100%;
+    margin: 0 0 0 15px;
+  }
+  .terms p {
+    padding: 0 5px 0 10px;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 319px) {
+}
+
+

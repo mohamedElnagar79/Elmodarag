@@ -1,0 +1,114 @@
+$primary: #504dc4;
+$primary_dark: #1e3148;
+$accent: #fe6277;
+$accent_light: #ff8149;
+$footer: #1b1b1b;
+$footer_text: #0ac0ff;
+$title_text: #4f6983;
+$text_fields: #edf4f5;
+
+.search {
+    padding: 0 0 40px 0;
+}
+.title {
+    text-align: center;
+    background-image: linear-gradient(90deg, $primary_dark, $primary);
+    padding: 30px;
+}
+.title h1 {
+    margin-bottom: 0;
+    color: $text_fields;
+    font-weight:lighter;
+}
+form {
+    background-image: linear-gradient(90deg, $primary_dark, $primary);
+    padding: 40px;
+    border-radius: 10px;
+}
+.form-group select {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border-radius: 15px;
+    color: #625a84;
+}
+.form-group button {
+    width: 100%;
+    height: 50px;
+    border-radius: 15px;
+    background-image: linear-gradient(90deg, $accent, $accent_light);
+    border: 0px;
+    color: $text_fields;
+}
+.new-student h1 {
+    margin: 0 0 20px 0;
+    color: $title_text;
+    font-weight: 600;
+}
+.new-student p {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+    color: $title_text;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+    .new-student h1 {
+        font-size: 30px;
+    }
+    .footer-contact-us a h3 {
+        font-size: 15px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    .title h1 {
+        font-size: 45px;
+    }
+    .new-student h1 {
+        font-size: 35px;
+    }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 575px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 479px) {
+    .title h1 {
+        font-size: 33px;
+    }
+    .new-student h1 { 
+        font-size: 30px;
+    }
+    form {
+        padding: 20px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 360px) {
+    .title h1 {
+        font-size: 29px;
+    }
+    .new-student h1 {
+        font-size: 27px;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 319px) {
+    .title h1 {
+        font-size: 20px;
+    }
+    .new-student h1 {
+        font-size: 18px;
+    }
+}

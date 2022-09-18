@@ -1,0 +1,121 @@
+$primary: #504dc4;
+$primary_dark: #1e3148;
+$accent: #fe6277;
+$accent_light: #ff8149;
+$footer: #1b1b1b;
+$footer_text: #0ac0ff;
+$title_text: #4f6983;
+$text_fields: #edf4f5;
+.my-account {
+  background-color: #fff;
+  padding: 2rem;
+  margin: 0 0 2rem 0;
+  border-radius: 25px;
+  box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
+}
+.account-head h1 {
+  font-size: 35px;
+  font-weight: 600;
+  color: $primary_dark;
+}
+.account-top {
+  text-align: center;
+  margin: 3rem 0 3rem 0;
+}
+.img-responsive {
+  width: 225px;
+  height: 225px;
+  border-radius: 50%;
+}
+.account-bottom {
+  text-align: center;
+}
+form {
+  padding: 1rem 15rem 1rem 15rem;
+}
+.form-group .form-input {
+  background-color: $text_fields;
+  color: $title_text;
+  width: 100%;
+  font-weight: 400;
+  border: 0;
+  border-radius: 15px;
+  padding: 20px 3px 20px 15px;
+}
+::-webkit-input-placeholder {
+  font-size: 16px;
+  color: $title_text;
+}
+
+.form-element {
+  margin: 2px 0 15px 0;
+}
+.form-btn {
+  background-image: linear-gradient(90deg, #fe6277, #ff8149);
+  color: $text_fields;
+  font-size: 18px;
+  font-weight: 300;
+  border-radius: 15px;
+  border: 0;
+  width: 100%;
+  padding: 20px;
+  margin: 1.5rem 0 2rem 0;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1199px) {
+  form {
+    padding: 1rem 8rem 1rem 8rem;
+  }
+  .img-responsive {
+    width: 200px;
+    height: 200px;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 991px) {
+  .account-head h1 {
+    font-size: 25px;
+  }
+  form {
+    padding: 1rem 5rem 1rem 5rem;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 575px) {
+  .account-head h1 {
+    font-size: 22px;
+  }
+  form {
+    padding: 1rem 2rem 1rem 2rem;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 479px) {
+  .account-head h1 {
+    font-size: 20px;
+  }
+  form {
+    padding: 1rem 1rem 1rem 1rem;
+  }
+  .img-responsive {
+    width: 190px;
+    height: 190px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 360px) {
+  form {
+    padding: 1rem 0.5rem 1rem 0.5rem;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 319px) {
+}

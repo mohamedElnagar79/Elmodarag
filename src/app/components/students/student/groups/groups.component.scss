@@ -1,0 +1,99 @@
+$primary: #504dc4;
+$primary_dark: #1e3148;
+$accent: #fe6277;
+$accent_light: #ff8149;
+$footer: #1b1b1b;
+$footer_text: #0ac0ff;
+$title_text: #4f6983;
+$text_fields: #edf4f5;
+$active: #e3232d;
+.my-groups {
+  background-color: #fff;
+  padding: 2rem;
+  margin: 0 0 2rem 0;
+  border-radius: 25px;
+  box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
+}
+.table {
+  margin: 2rem 0 2rem 0;
+  color: $primary_dark;
+}
+.message-btn {
+  color: $text_fields;
+  background-image: linear-gradient(90deg, $accent, $accent_light);
+  border: 0;
+  border-radius: 12px;
+  padding: 4px 12px 4px 12px;
+  font-size: 16px;
+  text-align: center;
+}
+thead tr {
+  font-size: 25px;
+}
+tbody tr {
+  font-size: 18px;
+  color: $primary_dark;
+}
+.group-head h1 {
+  font-size: 30px;
+  font-weight: 600;
+  color: $primary_dark;
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1199px) {
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 991px) {
+  thead tr {
+    font-size: 20px;
+  }
+  tbody tr {
+    font-size: 15px;
+  }
+
+  .group-head h1 {
+    font-size: 25px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+  thead tr {
+    font-size: 20px;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 575px) {
+  thead tr {
+    font-size: 13px;
+  }
+  tbody tr {
+    font-size: 11px;
+  }
+  .group-head h1 {
+    font-size: 22px;
+  }
+  .message-btn {
+    padding: 6px 2px 6px 2px;
+    font-size: 11px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 479px) {
+  .group-head h1 {
+    font-size: 20px;
+  }
+  .message-btn {
+    padding: 4px 2px 4px 2px;
+    font-size: 11px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 360px) {
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 319px) {
+}

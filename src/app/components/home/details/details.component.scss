@@ -1,0 +1,100 @@
+$primary: #504dc4;
+$primary_dark: #1e3148;
+$accent: #fe6277;
+$accent_light: #ff8149;
+$footer: #1b1b1b;
+$footer_text: #0ac0ff;
+$title_text: #4f6983;
+$text_fields: #edf4f5;
+
+.left-box {
+  background-image: linear-gradient(90deg, $accent, $accent_light);
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  h1 {
+    color: $text_fields;
+  }
+}
+.right-box {
+  background-image: linear-gradient(90deg, $primary_dark, $primary);
+  border-radius: 20px;
+  padding: 15px;
+  position: relative;
+  p {
+    color: $text_fields;
+  }
+  .date {
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+    color: $text_fields;
+  }
+}
+.info {
+  text-align: center;
+  background-image: linear-gradient(90deg, $primary_dark, $primary);
+  border-radius: 20px;
+  padding: 20px;
+  p {
+    color: $text_fields;
+    width: 80%;
+    margin-top: 20px;
+    margin: 20px auto;
+  }
+  button {
+    background: $accent;
+    padding: 10px 40px;
+    color: $text_fields;
+  }
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1199px) {
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 991px) {
+  .left-box {
+    padding: 30px 5px;
+    height: 100px;
+    h1 {
+      font-size: 30px;
+    }
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 575px) {
+  .left-box {
+    padding: 15px 0px 7px 0px;
+    margin: 5px auto;
+    height: auto;
+    h1 {
+      font-size: 25px;
+    }
+  }
+  .info {
+    padding: 10px;
+    p {
+      width: 100%;
+    }
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 479px) {
+  .info p,
+  .right-box p {
+    font-size: 13px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 360px) {
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 319px) {
+}

@@ -1,0 +1,56 @@
+.title h1 {
+  color: #1e3148;
+  position: relative;
+  padding: 5px 0;
+}
+.title h1::after {
+  content: "";
+  position: absolute;
+  width: 120px;
+  border: 2px solid #fe6277;
+  bottom: 0;
+  left: 0;
+}
+.box {
+  border-radius: 15px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
+}
+.box .top {
+  text-align: center;
+  padding: 30px 0 15px 0;
+}
+.box .top img {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+  border-radius: 15px;
+  object-fit: cover;
+}
+.box .bottom {
+  padding: 0px 10px;
+  text-align: center;
+}
+.box .bottom h5 {
+  color: #1e3148;
+  font-weight: bold;
+}
+.box .bottom p {
+  font-weight: lighter;
+  margin: 1px;
+  color: #1e3148;
+}
+.box .info {
+  padding: 10px 25px;
+}
+.box .info p {
+  margin: 0;
+  color: #1e3148;
+  opacity: 0.6;
+}
+.box .rate {
+  padding: 10px 15px;
+  text-align: right;
+  color: #fe6277;
+}

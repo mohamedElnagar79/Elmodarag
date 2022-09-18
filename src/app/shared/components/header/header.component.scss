@@ -1,0 +1,32 @@
+$primary: #504DC4;
+$primary_dark: #1E3148;
+$accent: #FE6277;
+$accent_light: #FF8149;
+$footer: #1B1B1B;
+$footer_text: #0AC0FF;
+$title_text: #4F6983;
+$text_fields: #EDF4F5;
+
+.headerContainer {
+    nav {
+        background-image: linear-gradient(90deg, $primary_dark, $primary);
+        padding: 10px;
+        .navbar-brand {
+            span {
+                color: $text_fields;
+                font-size: 16px;
+            }
+        }
+    }
+}
+.nav-link {
+    color: $text_fields;
+    font-size: 17px;
+}
+.sign-btn {
+    color: #EDF4F5;
+    border: 1px solid #f8ffff;
+    padding: 5px 30px;
+    width: 100%;
+    font-size: 17px;
+}

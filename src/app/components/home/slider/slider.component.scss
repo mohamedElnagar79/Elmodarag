@@ -1,0 +1,122 @@
+$text_fields: #edf4f5;
+
+.slider-image {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.image-responsive {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.slider-image::before {
+  background-color: rgba(30, 49, 72, 0.4);
+  content: " ";
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.slider-text h1 {
+  position: absolute;
+  top: 30%;
+  object-fit: contain;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: $text_fields;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.slider-text p {
+  object-fit: contain;
+  font-size: 16px;
+  font-weight: 100;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  letter-spacing: 1px;
+  color: $text_fields;
+  text-align: center;
+  line-height: 20px;
+  opacity: 0.8;
+}
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #00000036;
+}
+.slider-text span {
+  object-fit: contain;
+  font-weight: 300;
+  font-size: 13px;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: $text_fields;
+  float: right;
+  padding-top: 14px;
+  padding-left: 60px;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1199px) {
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 991px) {
+  .slider-text h1 {
+    font-size: 35px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+  .slider-text {
+    h1 {
+      font-size: 25px;
+    }
+    p {
+      font-size: 13px;
+    }
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 575px) {
+  .slider-text h1 {
+    font-size: 24px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 479px) {
+  .slider-text {
+    h1 {
+      font-size: 18px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 360px) {
+  .slider-text {
+    h1 {
+      font-size: 16px;
+    }
+    p {
+      font-size: 11px;
+    }
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 319px) {
+}
